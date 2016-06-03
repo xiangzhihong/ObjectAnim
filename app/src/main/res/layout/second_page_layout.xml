@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/second_page">
+
+    <ImageView
+        android:id="@+id/quan1_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="310dp"
+        android:src="@drawable/quan2"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/quan2_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="305dp"
+        android:src="@drawable/quan2"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:id="@+id/gold_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="205dp"
+        android:layout_marginTop="320dp"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/gold_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@anim/gold_anim" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/man_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="75dp">
+
+        <ImageView
+            android:id="@+id/man_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:background="@drawable/man1" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/box_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="255dp">
+
+        <ImageView
+            android:id="@+id/box_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@anim/box_anim" />
+    </FrameLayout>
+
+</FrameLayout>

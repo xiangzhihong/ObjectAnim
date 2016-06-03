@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="left|top" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/third_page710" />
+
+    <ImageView
+        android:id="@+id/find_view"
+        android:layout_width="180dp"
+        android:layout_height="128dp"
+        android:layout_marginLeft="155dp"
+        android:layout_marginTop="220dp"
+        android:src="@drawable/magnifier" />
+
+    <ImageView
+        android:id="@+id/enter_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/page_enter" />
+
+</FrameLayout>

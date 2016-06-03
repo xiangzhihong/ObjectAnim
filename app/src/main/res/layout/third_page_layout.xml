@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/third_page">
+
+    <FrameLayout
+        android:id="@+id/route_a_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="70dp">
+
+        <ImageView
+            android:id="@+id/route_a_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/route_a_anim" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/route_b_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/route_b_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@anim/route_b_anim" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/route_c_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="215dp"
+        android:layout_marginTop="70dp">
+
+        <ImageView
+            android:id="@+id/route_c_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/route_c_anim" />
+    </FrameLayout>
+
+    <ImageView android:id="@+id/phone_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="45dp"
+        android:src="@drawable/third_page_man1" />
+
+    <ImageView
+        android:id="@+id/enter_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/page_enter" />
+</FrameLayout>
